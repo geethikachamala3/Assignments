@@ -369,4 +369,5 @@ SELECT
      FROM hr.departments d 
      WHERE d.department_id = e.department_id) AS department_name
 FROM hr.employees e
+
 ORDER BY e.department_id, dept_rank;
