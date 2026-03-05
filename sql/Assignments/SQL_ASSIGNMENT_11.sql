@@ -216,4 +216,5 @@ SELECT job_id
 FROM hr.employees
 WHERE department_id IN (SELECT department_id FROM hr.departments)
 INTERSECT
+
 SELECT job_id FROM hr.employees;
